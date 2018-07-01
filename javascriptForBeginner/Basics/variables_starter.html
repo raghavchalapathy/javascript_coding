@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Variables</title>
+</head>
+<body>
+  <h2>Variables</h2>
+  <p>We use variables to store data.</p>
+</body>
+<img width="200" height="250" src="daenerys.jpg">
+
+<script>
+
+  //JavaScript goes inside the script tag
+  var name = "Raghav";
+
+
+  var age = 21; // Type is Number
+  var city = undefined; // Type of the variable is defined as undefined.
+  var x;
+
+  var evil = false;
+
+
+  if(name == "Daenerys"){
+    document.write("She is the mother of dragons!!!!");
+  }else{
+    document.write("She is NOT the mother of dragons");
+  }
+
+ // Objects in Javascript.
+ var person = {firstname:"Madison",lastname:"Kanna",age:25, eyecolor:"blue"};
+
+ var hobbies = ["Reading","watching game of thrones"]; // are similar to lists in python
+ for(i = 0; i < 10; i+=1){
+    document.write("In loop"+"<br>");
+ }
+
+  var playMyShow = function(a,b) {
+    // instrunction for function here
+   return a+b;
+ }
+
+result = playMyShow(5,2);
+console.log("My result is "+result);
+
+</script>
+
+
+</html>
